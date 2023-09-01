@@ -1,0 +1,98 @@
+<%- include("layout/header") %>
+
+    <!--contact section starts-->
+
+    <div class="section-tital">contact us</div>
+
+    <section class="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <i class="fas fa-phone"></i>
+                <a href="tel:+8801721970578">01721970578</a>
+                <a href="tel:+8801721970578">01721970578</a>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:sagormollick242@gmail.com">sagormollick242@gmail.com</a>
+                <a href="mailto:pulokmollick111@gmail.com">pulokmollick111@gmail.com</a>
+
+            </div>
+
+            <div class="box">
+
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">hous no.120/A, fromgate, dhaka, bangladesh</a>
+
+            </div>
+
+        </div>
+
+        <form action="" method="post">
+
+            <h3 class="heading">drop your message</h3>
+
+            <div class="flex">
+
+                <div class="box">
+                    <p> name<span> *</span></p>
+
+                    <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+                </div>
+
+                <div class="box">
+                    <p> number<span> *</span></p>
+
+                    <input type="number" name="number" required min="0" max="9999999999999" maxlength="30"
+                        placeholder="enter your number" class="input">
+                </div>
+
+                <div class="box">
+                    <p> email<span> *</span></p>
+
+                    <input type="text" name="email" required maxlength="50" placeholder="enter your email"
+                        class="input">
+                </div>
+
+                <div class="box">
+                    <p> role<span>*</span></p>
+
+                    <select name="role" required class="input">
+
+                        <option value="employee">
+                            job seeker (employee)
+                        </option>
+                        <option value="employeer">
+                            job provider (employee)
+                        </option>
+
+                    </select>
+
+
+                </div>
+
+            </div>
+
+            <p> message <span>*</span></p>
+
+            <textarea name="messa" class="input" required maxlength="1000" placeholder="enter your message" cols="30"
+                rows="10">
+            </textarea>
+
+            <input type="submit" value="send message" name="send" class="btn">
+
+        </form>
+
+    </section>
+
+    <!--contact section  ends-->
+
+    <%- include("layout/footer") %>
+
+        <!--link js-->
+        <script src="script.js"></script>
